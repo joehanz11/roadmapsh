@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume</title>
+  <style>
+    :root {
+      --green: #2faa3f;
+      --blue: #1a73e8;
+      --text: #222;
+      --border: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      padding: 40px;
+    }
+
+    .resume {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #fff;
+      border: 2px solid var(--border);
+      padding: 40px;
+      color: var(--text);
+    }
+
+    .top-line {
+      border-top: 3px solid var(--border);
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    .title {
+      color: var(--green);
+      font-size: 18px;
+      margin: 6px 0 20px;
+    }
+
+    .contact p {
+      margin: 4px 0;
+      font-size: 15px;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    section h2 {
+      color: var(--green);
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h3 {
+      color: var(--blue);
+      font-size: 17px;
+      margin: 0;
+    }
+
+    .item .date {
+      font-size: 14px;
+      margin: 4px 0 8px;
+    }
+
+    ul {
+      margin: 6px 0 8px 18px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .item .used-skills {
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    .links p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="top-line"></div>
+
+    <header>
+      <h1>Joehann</h1>
+      <div class="title">IT Specialist</div>
+
+      <div class="contact">
+        <p>123 Your Street</p>
+        <p>Your City, ST 12345</p>
+        <p>(123) 456-7890</p>
+        <p>no_reply@example.com</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        HTML, CSS, JavaScript, Accessibility, Figma to Design,
+        Responsive Web Design, Technical Writing, Presentation
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <h3>School Name, Location - Degree</h3>
+        <div class="date">Month 20xx to Month 20xx</div>
+        <p>List of exciting things you did at university</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="item">
+        <h3>Company Name, Location - Job Title</h3>
+        <div class="date">Month 20xx to Month 20xx</div>
+        <ul>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <div class="used-skills">
+          <strong>Skills:</strong> List of skills used or gained at this company
+        </div>
+      </div>
+
+      <div class="item">
+        <h3>Company Name, Location - Job Title</h3>
+        <div class="date">Month 20xx to Month 20xx</div>
+        <ul>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <div class="used-skills">
+          <strong>Skills:</strong> List of skills used or gained at this company
+        </div>
+      </div>
+    </section>
+
+    <section class="links">
+      <h2>Across the Internet</h2>
+      <p>Add your LinkedIn, GitHub profile links</p>
+    </section>
+  </div>
+</body>
+</html>
